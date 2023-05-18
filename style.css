@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+<style>
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background-color:hsl(220, 15%, 55%);
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.card{
+    padding: 1rem;
+    width:300px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem;
+}
+.card img{
+    border-radius: 10px;
+}
+
+.card p{
+    font-weight: 400;
+    color:hsl(220, 15%, 55%)
+}
+
+
